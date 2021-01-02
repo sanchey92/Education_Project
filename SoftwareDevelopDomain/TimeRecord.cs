@@ -1,0 +1,20 @@
+using System;
+
+namespace SoftwareDevelopDomain
+{
+    public class TimeRecord
+    {
+        public DateTime Date { get; }
+        public string Name { get; }
+        public byte Hours { get; }
+        public string Message { get; }
+
+        public TimeRecord(DateTime date, string name, byte hours, string message)
+        {
+            Date = date;
+            Name = name;
+            Hours = hours;
+            Message = message;
+        }
+    }
+}
